@@ -69,13 +69,13 @@ def main_screen():
     global code
     global text1
 
-    
+
     screen=Tk()
     screen.geometry("375x398")
 
     #icon
-    image_icon=PhotoImage(file="encrypt.png")
-    screen.iconphoto(False,image_icon)
+    # image_icon=PhotoImage(file="encrypt.jpg")
+    # screen.iconphoto(False,image_icon)
     screen.title("ED APP")
 
     def reset():
